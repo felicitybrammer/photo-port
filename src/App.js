@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav'
 import Gallery from './components/Gallery';
-// import logo from './logo.svg';
-import './App.css';
+
+//import './App.css';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       ></Nav>
       <main>
         <div>
-          <Gallery></Gallery>
+          <Gallery currentCategory={currentCategory}></Gallery>
           <About></About>
         </div>  
       </main>
